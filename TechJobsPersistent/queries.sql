@@ -1,6 +1,4 @@
---Part 1
-
---Part 2
-
---Part 3
+Select jobs.Id, jobs.Name, jobs.EmployerId, data_types
+From information_schema.columns
+Where table_name ='jobs';
 
